@@ -1,0 +1,7 @@
+# An introduction to Python Programming
+
+"""
+This is an example of a multi-line comment
+It consist of multiple lines of code that are not
+processed by the interpreter/compiler
+"""
