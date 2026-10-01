@@ -1,0 +1,68 @@
+# We will be using Python as a calculator.
+
+a = " # Using Python as a calculator "
+print(a)
+
+b = 12
+c = 15
+d = 80
+e = 65
+f = 42
+g = 14
+
+# Addition and Subtraction
+
+print(b + c)
+print( d-e )
+print("")
+print ( (g + f) - b )
+print ( (e - c) - g )
+
+print("")
+print("")
+
+
+""" Now, to explore Division|Floor Division| The remainder of the Division.
+
+1. Division (Normal division leaves a floating point)
+
+2. Floor Division leaves no floating point.
+
+3. "%" The remainder of the division is left
+"""
+
+# Normal Division( which leaves a floating point )
+
+print (d/2)
+print (d/3.9)
+print (" ")
+
+print (" ")
+print (d/40) # The result is 2.0
+print ( e/4.4) # The result will be outputted with a floating point.
+
+
+print ("    ")
+print ("    ")
+print ("    ")
+
+
+# |Floor Division| " //"
+print (b//2)
+print (d // 4)
+print (g // 3)
+print (g//2)
+print (e//5)
+print (f//42)
+
+print (" ")
+print (" ")
+
+# Now onto the remainder of the remainder Division "%"
+
+print (4000%1)
+
+"""
+And just one example is good for the day
+"""
+
