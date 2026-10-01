@@ -1,0 +1,68 @@
+# Naming Variables
+
+'''
+what are suitable names for a variable.
+It seems everything works except for special characters and
+numbers.
+'''
+
+
+a = " My name is Rafiq "
+ap = " My name is Ziyad "
+
+b = ","
+b1 = "I am 22 years of age"
+
+c = " i am 21 years of age. "
+rad = " Well "
+red = "fake"
+fad = ' made '
+done  = ' sad '  # Let's see just how it would work
+
+# Learning how to index
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+print(a[5])
+
+print(a[6])
+print(a[7])
+
+print (a[6:7])
+print (a[6:8])
+
+'''
+print(a[8])
+print(a[9])  # When it comes to indexing, the very first number is '0'
+
+print(a[10])  # There seems to be a misunderstanding, but i'll come back to this.
+'''
+
+print ("  ")
+print (a[8:13])
+
+
+"""
+Now, onto what the
+
+"""
+
+
+
+# Dealing with Arithmetic
+
+# Simple Addition
+
+a = 1000
+b = 2000
+
+print (a + b)
+
+c = 12.23
+d = 13.998
+
+#print( c + d )
+
+
