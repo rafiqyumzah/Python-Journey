@@ -1,0 +1,59 @@
+# Playing with the different types of division in Python
+
+
+# Normal Division
+a = 42
+b = 2
+
+c = 3
+d = 65
+
+e = 7
+f = 79
+
+print(a/b)
+21.0
+""" For normal division, the result is a floating-point number.
+in the example up above though we divided a decimal by a decimal
+we still got a floating-point number """
+' For normal division, the result is a floating-point number.\nin the example up above though we divided a decimal by a decimal\nwe still got a floating-point number '
+
+print (d/e)
+9.285714285714286
+print (d/a)
+1.5476190476190477
+print (b/d)
+0.03076923076923077
+# As you can see, all the results printed out a  floating-point number
+
+
+""" Floor Division """
+' Floor Division '
+# This is the type of division that returns a normal decimal number
+print (f/d)
+1.2153846153846153
+# above is wrong
+print (f//d)
+1
+print (a//b)
+21
+print (b//c)
+0
+print (f//e)
+11
+
+""" Remainder Division """
+' Remainder Division '
+# What this type of division do is that it leaves what would remain after a
+# What this type of division do is that it leaves what would remain after a
+
+print (f%e)
+2
+print (d%e)
+2
+print (f%a)
+37
+print (d%d)
+0
+print (f%b)
+1
