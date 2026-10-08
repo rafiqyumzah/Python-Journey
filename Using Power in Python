@@ -1,0 +1,41 @@
+# Using power in Python
+a = 23
+b = 23
+
+c = 20
+d = 21
+
+e = 90
+f = 24
+
+g = 15
+h = 245
+
+i = 29
+j = 25
+h = 2
+
+print (j**3)
+print (e ** 2)
+print ("")
+
+print (g ** 4)
+print (g ** 3)
+print ("")
+
+print (f ** a)
+print (f ** b)
+print ("")
+
+
+print (a ** 2)
+print (b ** a)
+print ("")
+
+print (c ** 3)
+print (d ** 4)
+print ("")
+
+print (e ** 3)
+print (f ** 4)
+
