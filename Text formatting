@@ -1,0 +1,46 @@
+# Playing with text
+
+# Single Quotes
+a = " 'There's no peace or love here' "
+b = ' that\'s a red flag \n That\'s a green flag \n That\'s a blue flag'
+
+
+print (a) # Using double quotes
+
+print (b) #Using single quotes
+
+" Now, playing/texting the special character"
+print ("")
+print ("")
+
+c = " 1. First rule of fightclub, you don't talk about Fightclub \n 2. Second rule of Fightclub, you don't talk about Fightclub \n3. Third rule of Fightclub, you don't talk about Fightclub "
+
+print (c)
+
+# Now, to deal with raw strings
+# WHAT ARE RAW STRINGS, raw strings are when we want to show special characters
+
+d = ' There\'s a fire on the mountain '  # This is to not show special characters
+print("")
+print("\n")
+e = r'There\'s a fire \n on the mountain ' # Almost done but here we talk more about raw strings
+
+f = r'A raw string such as this \n Must not end \n In an odd number of "\n" backslashes ' # This is a raw string literal
+g = r' Instead, it must end \n with an even number of "\ backslashes" like this '
+
+
+print ("")
+print (d)
+print (e)
+print ("\n")
+print (f)
+print (g)
+
+# H and I will be examples of why raw strings must not or cannot end with odd number of backslashes
+
+f = r' These\'s days Rafiq\'s car\'s are in the garage' # This one has an odd number of backslashes
+g = r' Don\'t overlook Ziyad\'s belongings '  # This one has an even number of backslashes
+
+print (f)
+print (g)
+       
