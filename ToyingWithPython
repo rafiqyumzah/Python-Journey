@@ -1,0 +1,52 @@
+#  Examining division
+# Starting with normal divsion
+
+a = 234
+b = 232
+c = 89
+d = 23
+
+print ("Below are examples of the output of a normal divisin arithmetic in python which results in a floating point number")
+
+print (c/9)
+print (c/23)
+print ("")
+
+print(a/4)
+print(b/2)
+print ("")
+
+print( '''
+The above values are the outputs of division
+what comes below are the outputs of floor division
+''')
+
+print (a//2)
+print (b//2)
+print (c//9)
+print (d//23)
+
+print ("""
+
+
+""")
+
+print (""" Next we will display using powers """)
+
+print(d**2)
+print(a**2)
+print ("")
+print (b ** 3)
+print (c**3)
+
+print (" ")
+
+
+
+print ("Playing with the 'remainder division' ")
+
+print(c%9) # This will give us a remainder of 0
+print(b%50)
+print(d%4)
+
+print ("")
