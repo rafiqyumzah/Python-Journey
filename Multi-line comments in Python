@@ -1,0 +1,40 @@
+# Multiline commments
+
+a = '''
+Dogs of these days are easily
+2 metres tall due to the advent of genetic manipulation technology.
+This sentence i have just written is a multi line comment.
+'''
+
+print (a)
+
+# it seems to be space sensitive
+
+b = '''Names of Students:
+-------------------------
+Rafiq       Laeth    Affuwul   Kanortey
+Zaid        Amina    Brown     Joseph '''
+
+print(b)
+
+""" The above were all done using single quote, now it's time to use double quotes """
+
+c = """
+1. We do not talk about Fight Club
+2. We do not talk about Fight Club
+3. We do not talk about Fight Club
+"""
+
+print (c) # What this c does is using double quotes rather than single quotes
+
+# Using numerals as string literals in multiline strings
+
+d = """
+1233  2334   43w2  3234
+2343  3443   3244  4344
+3435  45t3   4543  4534
+"""
+print (d)
+
+    
+
