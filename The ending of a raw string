@@ -1,0 +1,9 @@
+# About raw strings
+
+print (""" A raw string may not end in an odd number of '\' characters """)  # From this example it should be noted that backslash is very important.
+
+print(r'C:\some\name\namename')
+print(r'C:https:\jklsdi\dlsd\lllll\dklds')
+print(r'C:Https:\jkljl\ksld\lkdff\jlfsdl')
+
+print("")
