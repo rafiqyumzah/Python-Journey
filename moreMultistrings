@@ -1,0 +1,17 @@
+a = '''\
+Names of Toyota Drivers:\
+ George, Lucas , Kwame , Abed
+
+Names of Luxury Vehicle Brands:\
+ Mercedes Benz , Lamborghini , Ferrari , Pagani
+'''
+b = '''\
+Names of Computer Brands
+
+- Dell        - HP
+- Huawei      - Lenovo
+- Alienware   - Apple\
+'''
+
+print(a)
+print (b)
