@@ -1,0 +1,14 @@
+# More practices with the multi-line string
+a = '''\
+Heroes:\
+ Spiderman, Superman , Batman , Wonderwoman
+ 
+Villains: \
+ Dr. Von Doom, Red Skull , Darthvader , Loki
+ 
+Anti-Heroes:\
+ Agent Venom, Ghostrider , Venom\
+ '''
+
+print (a)
+ 
