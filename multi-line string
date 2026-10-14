@@ -1,0 +1,42 @@
+print ('''
+Usage: thingy [options]
+    -h                  Display this usage message   
+    -H hostname         Hostname to connect to
+''')
+print ("""\
+Usage: thingy [options]
+    -h                  Display this usage message
+    -H hostname         Hostname to connect to
+""")
+
+
+print("""
+Names of talkatives
+    Rafiq
+    Laeth
+    Ziyad
+    Leslie
+    Kwame\
+    August\
+    Noon\
+    Friday
+""")
+
+""" So basically what the backslash does is that it erases space as seen when using the interpreter.
+I will now run some examples """
+
+a = """\
+Nouns
+------
+Names:\
+Rafiq, Dosu, Elvis, Leath
+
+Places:\
+Accra, Koforidua , Kawokudi
+
+Objects:\
+Pencils, Sharpeners , Rulers\
+"""
+
+print(a)
+# The spaces were indeed removed
