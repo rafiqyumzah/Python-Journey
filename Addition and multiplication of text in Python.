@@ -1,0 +1,15 @@
+#Playing with the + as well as *'s
+
+A = 'He\'s as tall as a '
+B = ' tree'
+C = 'bird'
+D = 'story-building'
+
+print (A + B)
+
+E = 'Repeat the word "tree" three times'
+print(E + B * 3)
+
+print ("")
+F = "The phrase was mentioned more than 4x times. "
+print (F + A * 5)
