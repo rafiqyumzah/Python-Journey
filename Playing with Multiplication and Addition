@@ -1,0 +1,38 @@
+# pLaying with Addition and multiplication
+a = "WATER"
+b = "soup"
+
+print ("Let us all drink what is outputted below us")
+print (a * 4)
+
+c = "It came without "
+d = "help me to achieve all the things i want such as"
+
+e = "what goes up and doesn't come down"
+f = "There were mutliple packs of "
+
+g = "Is that the new luxury vehicle "
+
+h = "TOTOTA"
+
+D = "lamborghini"
+
+f = "a bunch of "
+
+print (c + d)
+print (" ")
+print (d + " multiple " + D+ "s" )
+
+print (" ")
+print (a + " is " + e )
+
+print (" ")
+print(c + b)
+
+print (" ")
+print (f + D + "'s")
+print ("")
+print ( h * 5)
+print (D * 6)
+print (f + " banana's")
+
