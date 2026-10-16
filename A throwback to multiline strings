@@ -1,0 +1,14 @@
+print("""\
+Names of Cars
+Lambo       Ferrari
+Toyota      Pagani
+
+Script 0wner Name : \
+Mr. Abdul Aziz
+Script Owner Age : \
+47
+Number of Cars Purchased: \
+5
+Total Amount of money spent: \
+$2,400,000
+""")
