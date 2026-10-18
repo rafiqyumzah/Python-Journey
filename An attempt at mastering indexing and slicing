@@ -1,0 +1,64 @@
+# Understanding slicing
+a = 'whatarethose'
+b = 'hiccupsarenotthatgreat'
+
+C = "BOTTLES&snaps"
+d = 'neckforneck'
+
+print(a[0:4])
+print("\n")
+print(a[4:6])# It seems there's been a mistake on my part of understanding slicing
+""" Apparently, and this is for just a normal slice
+    the second numeral acts as a barrier
+
+"""
+print(a[4:7])
+print(a[7:12]) # those
+
+  
+print("\n")
+print(a[-1:-5]) #whose
+
+print("\n")
+print(b[0:6]) #hiccup # you forgot that the last number acts as a kind of barrier so extend it by one.
+print(b[0:7]) #hiccups
+
+print('')
+print(b[7:9]) # ar
+print(b[7:10]) # are
+
+
+print("\n")
+print(b[7:21]) #arenotthatgrea
+print(b[7:22]) #arenotthatgreat
+
+
+# MOVING ONTO C & D WHERE WE CAN IMPLEMENT THIS NEW KNOWLEDGE
+
+# I want to slice out BOTTLES
+
+print("\n")
+print(C[0:7])  # BOTTLE
+print(C[0:8]) #BOTTLES
+
+print("\n")
+
+print(C[8]) # &
+      
+
+print("\n")
+
+print(C[9:13]) # snap
+print(C[9:14]) # snaps
+
+""" Now for "d" """
+
+print("\n")
+# now for d
+
+print(d[0:4]) # neck
+print(d[4:7]) # for
+print(d[7:-1]) # neck
+
+""" This is huge news since i've been able to use a negative index """
+      
