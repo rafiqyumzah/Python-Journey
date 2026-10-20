@@ -1,0 +1,46 @@
+# lEARNING ABOUT SLICING AND INDEXING
+""" The Below part is based on slicing only"""
+
+A = 'bookstore'
+B = 'Roadster'
+C = 'Hardcore'
+
+d = 'negativity'
+e = 'Compounded'
+f = 'hounddog'
+
+print(A[0:4]) # book
+print(A[4:]) #store
+
+print(B[0:4]) #Road
+print(B[4:7]) #ste      This is due to the fact of the barrier.
+print(B[4:])  #ster
+
+print("\n")
+
+print( " The " + "Tesla " + B + " is by the " + A ) # The Tesla Roadster is by the Bookstore
+
+
+""" Implementing my knowledge of barrriers
+      into  d  x e and f      """
+
+print("\n")
+
+print(d[0:4]) # nega
+print(d[4:])  #tivity
+print(d[4:10])  #tivity          # here barrier technology was  used
+
+print("\n")
+print(e[0:3]) # Comp
+print(e[3:]) #pounded
+print(e[-1:-7]) # pounded using the negative index
+
+print("\n")
+
+print(f[-4:-8]) #hound
+print(f[0:5]) # hound
+print("\n")
+print(f[5:8]) # dog using barrier tech, rather than
+print(f[5:]) # dog
+
+
