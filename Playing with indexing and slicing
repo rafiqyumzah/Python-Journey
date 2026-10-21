@@ -1,0 +1,50 @@
+# Playing with indexing and slicing
+
+a = "Namesake"
+b = "Daysgone"
+c = "DarkSeid"
+d = "EmergencyNumber"
+
+print(a[0:4])# Name
+print(a[4:8]) # sake
+
+print("\n")
+print(b[0:4]) #Days
+print(b[4:])  #gone
+
+print("\n")
+print(c[0:4])#Dark
+print(c[4:8])#Seid
+print("\n")
+
+print(d[0:9]) #Emergency
+print(d[9:]) #Number
+
+
+""" Now to explore indexing random numbers
+which we won't know the exact values"""
+# above was just a bunch of bullshit
+
+print(a[3])
+print(a[0]) 
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+
+print("\n")
+
+
+# Below, an error has been detected
+
+print(a[4:-1])#sake
+print(b[4:-1])#gone
+print("\n")
+# Due to barrier tech, using a negative number still applies there,and so the best thing to do is to just leavit it at that.
+
+print(a[4:]) #sake
+print(b[4:]) #gone
+
+
+
+
