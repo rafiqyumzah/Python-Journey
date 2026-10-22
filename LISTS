@@ -1,0 +1,38 @@
+# Learning how to use  "LISTS"
+
+squares = [1, 4 , 9 , 16 , 25 , 36 , 49 , 64]
+numerals = [ "ones" , "twos" , "threes" , "fours" , "fives"]
+# Lists support operations like concatenation
+print(squares + numerals)
+cubes = [1 , 8 , 27 ,54 , 125 , 215 , 343 ]
+
+# indexing and slicing of Lists
+
+print(squares[-1:]) # ....
+print(cubes[-1:])
+
+print(squares[0:9])
+print(cubes[0:5])
+
+""" Print indexing each and every single index
+done in a vertical line """
+
+print("\n")
+# starting from squares one
+print(squares[0])
+print(squares[1])
+print(squares[2])
+print(squares[3])
+print(squares[4])
+print(squares[5])
+print(squares[6])
+print(squares[7])
+print("\n")
+
+print("\n")
+
+print(numerals[0:3])
+print(numerals[3:])
+
+print("\n")
+
