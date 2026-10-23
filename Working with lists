@@ -1,0 +1,64 @@
+# Creating three(3) different lists
+
+""" A list is a compound data types , used to group together other values """
+arm = [1 ,2 ,3 ,4 ,5 ,6 ,7 , 8 , 9 ,10]
+legs = [ "zero" , "one" , "two" , "three" , "four" , "five" , "six" ]
+waist = [ 1 ," ones ", 2 , " twos " , 3 , "threes" , 4 , "fours" , 5 , "fives" , 6 , "six"]
+
+# Indexing and slicing "arm"
+print("\n")
+print(arm[0])
+print(arm[1])
+print(arm[2])
+print(arm[3])
+print("\n")
+print(arm[4])
+print(arm[5])
+print(arm[6])
+print(arm[7])
+print(arm[8])
+print("\n")
+
+print(arm[9])
+# print(arm[10]) Fortunately for us this does not compute
+
+print(""" Below
+we are gonna make slices of the list "arm".
+The list consist of numbers 1 , 2, 3 , 4, 5... """)
+
+print(arm[0:6]) #  1 2 3 4 5 
+print(arm[6:]) # 6 , 7, 8, 9 , 10
+print("\n")
+print(arm[1:4]) # 2 , 3 ,4
+print(arm[2:8]) # 3 ,4 5 6 7
+
+print("\n")
+
+print(""" Now,
+We move on to :legs: that contains, letter rather than numbers """)
+
+print("\n")
+print(legs[0]) # zero
+print(legs[-1]) # six
+
+
+print("\n")
+print(legs[0])
+print(legs[1])
+print(legs[2])
+print(legs[3])
+print(legs[4])
+print(legs[5])
+print(legs[6])
+
+print("\n")
+
+print(waist[0]) # 1
+print(waist[-1]) # six
+
+print("\n")
+
+print("Slicing the variable, waist")
+print(waist[0:-1])
+print(waist[0:6])
+
