@@ -1,0 +1,81 @@
+# Revision of Lists
+""" An introduction to lists and their usess"""
+# python knows a number of compound data types, used to group together other values.
+
+a = [ 1 ,2 , 3 , 4, 5 , 6 ,7 ]
+b = ["one" , "two" , "three" , "four" , "five" , "six" , "seven"]
+mix = [1 , 'one' , 2 , 'two' , 3 , 'three' , 4 , ' four ', 5 , 'five' , 6 , 'six' , 7 , 'seven' ]
+
+#Indexing A
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3])
+print("\n")
+
+# Slicing A
+print(a[0:3])
+print(a[3:])
+print("\n")
+#Indexing b
+print(b[0])
+print(b[1])
+print(b[2])
+print(b[3])
+print("\n")
+      
+
+#Slicing B
+print(b[0:5])
+print(b[5:])
+print("\n")
+
+print(mix[0:7])
+print(mix[7:])
+
+# Lists unlike strings can be added to or changed
+# changing a list
+"""A"""
+print("\n")
+print(a)
+a[5] = 5
+print(a)
+
+"""B"""
+print("\n")
+print(b)
+b[0] = "seven"
+print(b)
+print("\n")
+
+"""mix"""
+print(mix)
+mix[0] = "likedat"
+print(mix)
+
+# Adding to a list
+a.append(8)
+a.append(9)
+a.append(10)
+a.append(11)
+a.append(12)
+print(a)
+
+# Appending to b
+b.append("eight")
+b.append("nine")
+b.append("ten")
+print(b)
+
+# Appending to MIX
+mix.append(8)
+mix.append("eight")
+mix.append(9)
+mix.append("nine")
+mix.append(10)
+mix.append("ten")
+print(mix)
+
+
+
+
