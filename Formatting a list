@@ -1,0 +1,33 @@
+# Learning how to add to the end as well to any point of a list
+
+# First, we add.
+
+a = [1 ,2 ,3 ,4 ,5, 6 ,7 ,8, 9,10]
+
+""" Adding more numbers to the list"""
+a.append(11)
+a.append(12)
+a.append(13)
+a.append(14)
+a.append(15)
+a.append(16)
+a.append(17)
+a.append(18)
+a.append(19)
+a.append(20)
+
+print(a)
+print("\n")
+
+a[1] = 0
+a[3] = 0
+a[5] = 0
+a[7] = 0
+a[9] = 0
+a[11] = 0
+a[13] = 0
+a[15] = 0
+a[17] = 0
+a[19] = 0
+
+print(a)
