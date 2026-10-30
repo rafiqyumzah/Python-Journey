@@ -1,0 +1,10 @@
+# Simple assingments in Python never copies data.
+
+a = ["Janruary","February","March"]
+an = a
+id(an) == id(a)
+an.append("April")
+an.append("May")
+an.append("June")
+print(a)
+print(an)
