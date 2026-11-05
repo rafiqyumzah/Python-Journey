@@ -1,0 +1,31 @@
+# Assignment to slice operations
+
+# All slice operations return new lists that contain the requested elements
+
+a = ["a","b","c","d"]
+b = [ 1 ,2 ,3 ,4, 5, 6]
+
+a[0:2] = ["A","B"]
+
+print(a)
+print("\n")
+
+b[0:3] = [0 , 0 , 0]
+print(b)
+
+print("\n")
+a[2:4] = [ "C" , "D"]
+print(a)
+
+print("\n")
+b[3:6] = [1 ,1 ,1 ]
+print(b)
+
+
+a[:] =[]
+print(a)
+b[:] = []
+print(b)
+
+len(a)
+len(b)
