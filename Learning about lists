@@ -1,0 +1,48 @@
+# We are continuing to learn about lists
+
+a = ["one" , "two" , "three" , "four"]
+b = [1 ,2 ,3, 4, 5, 6, 7]
+c = ["one" , 1 , "two" , 2 , "three" , 3 , "four" , 4 , "five" , 5 ]
+
+print(a[:])
+# A list that creates a slice creates a new compound that is a shallow copy
+
+# A shallow copy constructs a new compound and then(to the extent possible ) inserts references to the objects in the original)
+
+print(b[:])
+
+ # concatenation of lists
+print("\n")
+
+print(a + b)
+
+print("\n")
+
+print(b + c)
+
+print("\n")
+
+print(c + b)
+ 
+# Showing how mutable a string is.
+
+a.append("five")
+a.append("six")
+a.append("seven")
+a.append("eight")
+a.append("nine")
+a.append("ten")
+print("\n")
+
+print(a)
+
+# Changing each individual entry
+
+a[1] = "zero"
+a[3] = "zero"
+a[5] = "zero"
+a[7] = "zero"
+a[9] = "zero"
+
+print("\n")
+print(a)
