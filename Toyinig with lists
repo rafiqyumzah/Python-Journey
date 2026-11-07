@@ -1,0 +1,22 @@
+""" Playing with lists in python"""
+# All slice operations return a new list containing the requested elements. This means the following lists returns a shallowcopy
+# What is a shallow copy
+# A shallow copy constructs a new compound and then(to the extent possible) inserts referemces into it to the objects in the original
+
+garden = ["Tomatoes", "Cucumber" , "Pepper" , "Lettuce" , "Onions"]
+# We want lettuce
+print("We have " + garden[3] + " in the gardem" )
+print("\n")
+#We want tomatoes
+print("There are five " + garden[0] + " in the garden")
+
+print("We have " + garden[1] + " , " + garden[2] + " and " + garden[4] + " in the garden")
+print("\n")
+
+ Homeparts = ["Garage","Kitchen","Bedroom","Bathroom"]
+ # Practising my indexing and slicing
+ print(Homeparts[0])
+ print(Homeparts[1])
+ print(Homeparts[2])
+ print(Homeparts[3])
+ print("\n")
