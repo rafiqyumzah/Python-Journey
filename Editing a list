@@ -1,0 +1,19 @@
+nums = [0,1,2,3,4,5,6,7,8,9,10]
+# changing each second one into a zero(0)
+nums[2] = 0
+nums[4] = 0
+nums[6] = 0
+nums[8] = 0
+nums[10] = 0
+print(nums)
+
+# next should be another one
+print("\n")
+
+wems = [0,10,20,30,40,50]
+wems.append(60)
+wems.append(70)
+wems.append(80)
+wems.append(90)
+wems.append(100)
+print(wems)
