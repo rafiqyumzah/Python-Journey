@@ -1,0 +1,16 @@
+# Playing more with nested lists
+Fruits = ["Pear","Banana","Mango","Pineapple"]
+Vegetables = ["Onions","Spring Onions","Cabbages"]
+numbers = [1,2,3,4,5]
+mix = [Fruits,Vegetables,numbers]
+print(mix[0][0])
+print(mix[1][0])
+print(mix[2][0])
+print("\n")
+print(mix[0][1])
+print(mix[1][1])
+print(mix[2][1])
+print("\n")
+print(mix[0][2])
+print(mix[1][2])
+print(mix[2][2])
