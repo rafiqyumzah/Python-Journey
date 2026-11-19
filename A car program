@@ -1,0 +1,46 @@
+# More time to play with the IF Statement.
+
+Car = input("What car brand do you drive? ")
+if Car == "Toyota":
+    print("A Toyota is a handy Japaneese car")
+
+elif Car == "Nissan":
+    print("A Nissan is a reliable car")
+
+elif Car == "Honda":
+    print("Similar to a Hyundai, but better in terms of functionality")
+
+elif Car == "Hyundai":
+    print("A classy alternative to the functional Honda")
+elif Car == "Ford":
+    print("Henry Ford would be proud of you for picking this robust option")
+
+elif Car == "Chevrolet":
+    print(" Did the Cross Logo catch your eyes")
+
+elif Car == "Kia":
+    print("This is pretty unconventional, but if it works, it works")
+elif Car == "Volkswagen":
+    print("This is a niche car brand so many people don't know of it")
+
+
+elif Car == "BMW":
+    print(" I see you're a man of taste")
+
+elif Car == "Mercedes-Benz":
+    print("Some people would have picked a BMW, but you my friend have taste, you are a man of taste")
+
+elif Car == "Audi":
+    print ("The sound of the exhause must be really Audi-ble..... get it get it")
+elif Car == "Lexus":
+    print(" A nice luxury vehicle brand for you my kind sir")
+elif Car == "Porsche":
+    print(" Now, you not only have money, but you have taste as well in cars. Get a Porsche 911 GT3RS")
+
+elif Car == "Tesla":
+    print("You must be a huge Elon Musk fanboy")
+elif Car == "Subaru":
+    print("You must be really into Japanese cars")
+
+else:
+    print('You must be a car guy, cause we haven\'t heard of this car')
