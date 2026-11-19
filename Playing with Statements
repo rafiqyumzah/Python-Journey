@@ -1,0 +1,12 @@
+# Learning with the If statement
+
+clouds = input("What color are the clouds? ")
+sky  = "Sky"
+if clouds == "White":
+    print(" The clouds are of the color, " + clouds )
+
+elif clouds == "Blue":
+    print("The " + sky + " is blue, clouds are white")
+
+else:
+        print("You're definitely on something, or..... you need new glasses,maybe you're colorblind.")
